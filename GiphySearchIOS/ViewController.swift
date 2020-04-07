@@ -14,10 +14,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var searchBar: UISearchBar!
     
     var network = GifNetwork()
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        setup()
     }
     
     func setup() {
